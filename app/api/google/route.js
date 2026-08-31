@@ -1,29 +1,38 @@
-import axios from "axios";
-import { NextResponse } from "next/server";
+// @flow strict
 
+import { NextResponse } from 'next/server';
+import { verifyRecaptchaToken } from '@/server/services/recaptcha.service';
+
+/**
+ * Handles server-side Google reCAPTCHA verification.
+ */
 export async function POST(request) {
-  const reqBody = await request.json();
-  const secret_key = process.env.NEXT_PUBLIC_RECAPTCHA_SECRET_KEY;
-
   try {
-    const url = `https://www.google.com/recaptcha/api/siteverify?secret=${secret_key}&response=${reqBody.token}`;
+    const reqBody = await request.json();
+    const result = await verifyRecaptchaToken(reqBody?.token);
 
-    const res = await axios.post(url);
-    if (res.data.success) {
+    if (result.success) {
       return NextResponse.json({
-        message: "Captcha verification success!!",
+        message: 'Captcha verification success!',
         success: true,
-      })
-    };
+      });
+    }
 
-    return NextResponse.json({
-      error: "Captcha verification failed!",
-      success: false,
-    }, { status: 500 });
+    return NextResponse.json(
+      {
+        error: result.error || 'Captcha verification failed.',
+        success: false,
+      },
+      { status: 400 }
+    );
   } catch (error) {
-    return NextResponse.json({
-      error: "Captcha verification failed!",
-      success: false,
-    }, { status: 500 });
+    console.error('[Recaptcha Controller Error]:', error.message);
+    return NextResponse.json(
+      {
+        error: 'Captcha verification server error.',
+        success: false,
+      },
+      { status: 500 }
+    );
   }
-};
+}

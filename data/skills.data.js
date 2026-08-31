@@ -1,0 +1,29 @@
+// @flow strict
+
+export const skillsData = [
+  'Python',
+  'FastAPI',
+  'Django',
+  'React',
+  'Next JS',
+  'Javascript',
+  'Typescript',
+  'HTML',
+  'CSS',
+  'Tailwind',
+  'Java',
+  'C++',
+  'MySQL',
+  'PostgreSQL',
+  'MongoDB',
+  'Docker',
+  'Git',
+  'GitHub',
+  'Linux',
+  'Pandas',
+  'Numpy',
+  'Pytorch',
+  'Tensorflow',
+  'GCP',
+  'VS Code'
+];

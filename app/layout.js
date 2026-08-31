@@ -1,30 +1,43 @@
 import { GoogleTagManager } from "@next/third-parties/google";
-import { Inter } from "next/font/google";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import Footer from "./components/footer";
-import CustomCursor from "./components/helper/custom-cursor";
-import InteractiveBackground from "./components/helper/interactive-background";
-import ScrollToTop from "./components/helper/scroll-to-top";
-import Navbar from "./components/navbar";
-import "./css/card.scss";
-import "./css/globals.scss";
-
-const inter = Inter({ subsets: ["latin"] });
+import Footer from "@/components/layout/footer";
+import Navbar from "@/components/layout/navbar";
+import CustomCursor from "@/components/ui/custom-cursor";
+import InteractiveBackground from "@/components/ui/interactive-background";
+import ScrollToTop from "@/components/ui/scroll-to-top";
+import "@/styles/card.scss";
+import "@/styles/globals.scss";
 
 export const metadata = {
-  title: "Sudipto Bhadra | Software Engineer Portfolio",
+  title: "Portfolio of SUDIPTO BHADRA - Software Engineer",
   description:
-    "Portfolio of Sudipto Bhadra - Software Engineer crafting high-impact full stack web applications, AI integrations, and cloud architectures.",
+    "This is the portfolio of SUDIPTO BHADRA. I am a passionate software engineer and full stack developer with expertise in AI, Python, FastAPI, Django, React, Next.js, and Machine Learning.",
+  keywords: [
+    "Sudipto Bhadra",
+    "Portfolio",
+    "Software Engineer",
+    "Full-Stack Developer",
+    "AI Developer",
+    "Python",
+    "FastAPI",
+    "Next.js",
+    "React",
+    "Tata Steel InsightAI",
+    "Vyapar AI",
+    "EcoTrack"
+  ],
+  authors: [{ name: "Sudipto Bhadra" }],
+  creator: "Sudipto Bhadra",
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" suppressHydrationWarning className="dark">
-      <body className={`${inter.className} bg-[#080c1b] text-white selection:bg-[#16f2b3]/30 selection:text-[#16f2b3]`} suppressHydrationWarning>
-        <InteractiveBackground />
+    <html lang="en" className="dark">
+      <body className="min-h-screen relative selection:bg-[#16f2b3] selection:text-black font-sans">
         <CustomCursor />
-        <ToastContainer theme="dark" />
+        <InteractiveBackground />
+        <ToastContainer position="bottom-right" theme="dark" autoClose={3000} />
         <main className="min-h-screen relative mx-auto px-4 sm:px-8 lg:max-w-[70rem] xl:max-w-[76rem] 2xl:max-w-[92rem] text-white">
           <Navbar />
           {children}

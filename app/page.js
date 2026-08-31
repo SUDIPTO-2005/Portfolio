@@ -1,22 +1,24 @@
-import AboutSection from "./components/homepage/about";
-import Achievements from "./components/homepage/achievements";
-import ContactSection from "./components/homepage/contact";
-import Education from "./components/homepage/education";
-import Experience from "./components/homepage/experience";
-import HeroSection from "./components/homepage/hero-section";
-import Projects from "./components/homepage/projects";
-import Skills from "./components/homepage/skills";
+// @flow strict
+
+import HeroSection from "@/components/features/hero/hero-section";
+import AboutSection from "@/components/features/about/about-section";
+import ExperienceSection from "@/components/features/experience/experience-section";
+import SkillsMarquee from "@/components/features/skills/skills-marquee";
+import ProjectsSection from "@/components/features/projects/projects-section";
+import EducationSection from "@/components/features/education/education-section";
+import AchievementsSection from "@/components/features/achievements/achievements-section";
+import ContactSection from "@/components/features/contact/contact-section";
 
 export default function Home() {
   return (
     <div suppressHydrationWarning>
       <HeroSection />
       <AboutSection />
-      <Experience />
-      <Skills />
-      <Projects />
-      <Education />
-      <Achievements />
+      <ExperienceSection />
+      <SkillsMarquee />
+      <ProjectsSection />
+      <EducationSection />
+      <AchievementsSection />
       <ContactSection />
     </div>
   );
