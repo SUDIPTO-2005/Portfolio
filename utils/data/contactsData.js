@@ -1,5 +1,5 @@
 export const contactsData = {
-    email: 'sudiptobhadra9c.jssp@gmail.com',
+    email: 'sdptbhdr@gmail.com',
     phone: '+91-74848 18943',
     address: 'Jamshedpur, Jharkhand',
     github: 'https://github.com/SUDIPTO-2005',

@@ -3,7 +3,7 @@ export const personalData = {
   profile: '/profile.png',
   designation: "Computer Science & Engineering Student",
   description: "I am a Computer Science and Engineering student at Institute of Technical Education and Research skilled in Python, Django, SQL, Java, DSA, and Web Development. Passionate about building technology-driven solutions with real-world impact. Effective team player with strong analytical thinking and communication skills, seeking opportunities to contribute technical expertise in growth-oriented engineering environments.",
-  email: 'sudiptobhadra9c.jssp@gmail.com',
+  email: 'sdptbhdr@gmail.com',
   phone: '+91-74848 18943',
   address: 'Jamshedpur, Jharkhand',
   github: 'https://github.com/SUDIPTO-2005',

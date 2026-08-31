@@ -6,7 +6,7 @@
   <p align="center">
     <a href="https://github.com/SUDIPTO-2005/Portfolio"><img src="https://img.shields.io/badge/GitHub-SUDIPTO--2005-181717?style=for-the-badge&logo=github" alt="GitHub" /></a>
     <a href="https://www.linkedin.com/in/sudipto-bhadra"><img src="https://img.shields.io/badge/LinkedIn-Sudipto_Bhadra-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn" /></a>
-    <a href="mailto:sudiptobhadra9c.jssp@gmail.com"><img src="https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail" alt="Email" /></a>
+    <a href="mailto:sdptbhdr@gmail.com"><img src="https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail" alt="Email" /></a>
   </p>
 
   <p align="center">
@@ -143,7 +143,7 @@ Portfolio/
 - **Portfolio:** [https://github.com/SUDIPTO-2005/Portfolio](https://github.com/SUDIPTO-2005/Portfolio)
 - **LinkedIn:** [linkedin.com/in/sudipto-bhadra](https://www.linkedin.com/in/sudipto-bhadra)
 - **GitHub:** [@SUDIPTO-2005](https://github.com/SUDIPTO-2005)
-- **Email:** [sudiptobhadra9c.jssp@gmail.com](mailto:sudiptobhadra9c.jssp@gmail.com)
+- **Email:** [sdptbhdr@gmail.com](mailto:sdptbhdr@gmail.com)
 
 ---
 
