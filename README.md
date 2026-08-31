@@ -1,7 +1,5 @@
 <div align="center">
 
-  <img src="public/profile.png" alt="Sudipto Bhadra" width="120" height="120" style="border-radius: 50%; border: 3px solid #16f2b3;" />
-
   # 🚀 SUDIPTO BHADRA
   ### AI Engineer • Full-Stack Developer • Problem Solver
 
