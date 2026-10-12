@@ -9,7 +9,7 @@ export const projectsData = [
     badge: 'TATA STEEL',
     badgeColor: 'bg-blue-600',
     code: 'https://github.com/SUDIPTO-2005/tata-steel-market-intelligence.git',
-    demo: 'https://github.com/SUDIPTO-2005/tata-steel-market-intelligence.git',
+    demo: 'https://tatasteel-insight.vercel.app/login',
     image: '/image/tatasteel-insightai.png',
     imagePosition: 'object-cover object-center',
   },

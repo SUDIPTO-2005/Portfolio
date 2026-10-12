@@ -28,6 +28,7 @@
 ## 🌟 Featured Projects
 
 ### 1. [TataSteel InsightAI – Financial Intelligence Platform](https://github.com/SUDIPTO-2005/tata-steel-market-intelligence.git)
+* **Live Demo:** [tatasteel-insight.vercel.app/login](https://tatasteel-insight.vercel.app/login)
 * **Category:** Enterprise AI & Predictive Analytics
 * **Description:** An AI-powered financial market intelligence platform transforming global commodities pricing, supply-chain macro indicators, and plant operations data into predictive financial intelligence for Tata Steel leadership and analysts.
 * **Tech Stack:** `Python`, `FastAPI`, `Machine Learning`, `Financial Intelligence`, `Docker`, `React`
