@@ -5,7 +5,7 @@ export const experiences = [
     id: 1,
     title: 'Software Intern',
     company: 'Tata Steel',
-    duration: 'Aug 2026 - Present'
+    duration: 'Aug 2026 - Oct 2026'
   },
   {
     id: 2,
